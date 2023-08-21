@@ -37,3 +37,8 @@ function whenPurchaseEnable(newTotalPrice) {
         purchaseBtn.setAttribute('disabled', true)
     }
 }
+function purchaseBtn() {
+    location.reload();
+   
+
+}

@@ -75,9 +75,6 @@ function handleSixthCard() {
     whenPurchaseEnable(newTotalPrice)
 }
 
-function makePurchaseBtn() {
-    console.log('make btm')
-}
 function applyBtn() {
     const inputElement = document.getElementById('inputId');
     const inputString = inputElement.value;
@@ -94,7 +91,6 @@ function applyBtn() {
 
 
         const totalPriceAmount = getAmount('totalPrice');
-        // const discountPrice = document.getElementById('discountAmount');
         const discountPrice = getAmount('discountAmount');
         const totalAmount = totalPriceAmount - discountPrice;
 
@@ -107,5 +103,8 @@ function applyBtn() {
     }
 
 }
+
+
+
 
 
